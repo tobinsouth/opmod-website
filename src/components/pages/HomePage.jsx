@@ -1,6 +1,6 @@
 import React from 'react';
 import { Outlet, Link } from "react-router-dom";
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/motif.svg';
 
 // A simple home screen
 export default function HomePage() {

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBezierCurve, faBook, faDatabase, faBriefcase, faPeopleGroup } from '@fortawesome/free-solid-svg-icons'
 // Import fontawesome github
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
-
+import logo from '../assets/opmodLogo.svg';
 
 
 function App() {
@@ -15,8 +15,8 @@ function App() {
           {/* Company Logo */}
           <div className="flex flex-1 items-center">
             <Link to="/" className="flex flex-none items-center mr-5 lg:mr-6">
-              <img src="https://tailwindui.com/img/logos/workflow-mark-on-white.svg" alt="Workflow" className="h-8 w-auto" />
-              <span className="hidden text-lg font-bold whitespace-nowrap md:block">opmod</span>
+              <img src={logo} alt="Logo for opmod" className="h-8 w-auto" />
+              {/* <span className="hidden text-lg font-bold whitespace-nowrap md:block">opmod</span> */}
             </Link>
           </div>
           {/* Search Bar */}
